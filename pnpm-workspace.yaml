@@ -1,0 +1,7 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+# Install scripts are off unless listed here as true.
+allowBuilds: {}
+# Only versions released at least 14 days ago (minutes), including transitive ones.
+minimumReleaseAge: 20160
